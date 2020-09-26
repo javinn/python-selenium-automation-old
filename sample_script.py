@@ -3,7 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # init driver
+
 driver = webdriver.Chrome()
+# chromedriver.exe copied to c:\bin and this added to system variable Path
 driver.maximize_window()
 
 # open the url
