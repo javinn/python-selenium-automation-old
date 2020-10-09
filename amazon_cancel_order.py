@@ -14,7 +14,8 @@ find_more_solutions_field = driver.find_element(By.ID, "helpsearch")
 sleep(2)
 
 # ENTER is used because Go button isn't available
-find_more_solutions_field.send_keys('Cancel order', Keys.ENTER)
+find_more_solutions_field.send_keys('Cancel order')
+find_more_solutions_field.submit()
 sleep(2)
 
 cancel_items_header = driver.find_element(By.XPATH, '//div[@class="help-content"]/h1')
@@ -24,4 +25,4 @@ header_text = cancel_items_header.text
 
 assert header_text == expected_header_text, f'Error. Header text is "{header_text}" instead of "{expected_header_text}"'
 
-driver.quit()
+# driver.quit()

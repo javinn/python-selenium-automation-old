@@ -7,9 +7,9 @@ RETURNS_AND_ORDERS = (By.ID, "nav-orders")
 SIGNIN_HEADER = (By.XPATH, '//h1[@class="a-spacing-small"]')
 
 
-@given('Open amazon.com page')
-def open_amazon(context):
-    context.driver.get('https://www.amazon.com/')
+@given('Open {webpage}')
+def open_wbepage(context, webpage):
+    context.driver.get(webpage)
 
 
 @when('Click on Returns & Orders')

@@ -4,6 +4,6 @@ Feature: Test scenarios for Logged-out Users
 
 
   Scenario: Logged-out User sees Sign-in Page when clicking Orders
-    Given Open amazon.com page
+    Given Open webpage
     When Click on Returns & Orders
     Then Sign-in page opens
