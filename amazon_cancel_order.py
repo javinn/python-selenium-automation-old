@@ -15,8 +15,13 @@ sleep(2)
 
 # ENTER is used because Go button isn't available
 find_more_solutions_field.send_keys('Cancel order')
+
 find_more_solutions_field.submit()
+
+
 sleep(2)
+find_more_solutions_field.submit()
+
 
 cancel_items_header = driver.find_element(By.XPATH, '//div[@class="help-content"]/h1')
 

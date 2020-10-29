@@ -17,15 +17,17 @@
 
 """
 
-(By.CSS_SELECTOR, 'i.a-icon-logo')                                                      - Amazon Logo
-(By.CSS_SELECTOR, 'h1.a-spacing-small')                                                 - Create account
-(By.CSS_SELECTOR, 'input#ap_customer_name')                                             - Your name
-(By.CSS_SELECTOR, 'input#ap_email')                                                     - Email
-(By.CSS_SELECTOR, 'input#ap_password')                                                  - Password
-(By.CSS_SELECTOR, 'div.auth-inlined-information-message div.a-alert-content')           - Password restriction
-
-
-
+(By.CSS_SELECTOR, 'i.a-icon-logo')                                                                                  - Amazon Logo
+(By.CSS_SELECTOR, 'h1.a-spacing-small')                                                                             - Create account
+(By.CSS_SELECTOR, 'input#ap_customer_name')                                                                         - Your name
+(By.CSS_SELECTOR, 'input#ap_email')                                                                                 - Email
+(By.CSS_SELECTOR, 'input#ap_password')                                                                              - Password
+(By.CSS_SELECTOR, 'div.auth-inlined-information-message div.a-alert-content')                                       - Password restriction
+(By.CSS_SELECTOR, 'input#ap_password_check')                                                                        - Re-enter Password
+(By.CSS_SELECTOR, 'input#continue')                                                                                 - Create your Amazon account
+(By.XPATH, "//div[@id='legalTextRow']/a[contains(@href,'ap_register_notification_condition_of_use')]")              - Conditions of Use
+(By.XPATH, "//div[@id='legalTextRow']/a[contains(@href,'ap_register_notification_privacy_notice')]")                - Privacy Notice
+(By.CSS_SELECTOR, 'a.a-link-emphasis')                                                                              - Sign-in
 
 
 """
